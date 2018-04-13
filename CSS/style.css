@@ -14,7 +14,7 @@ nav{
   display:flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px blue solid;
+  /* border: 1px blue solid; */
   font-family: sans-serif;
   font-style: Helvetica;
   font-size: 18px;
@@ -34,17 +34,17 @@ a{
 
 .LogoJST{
   width:140px;
-  border: 1px green solid;
+  /* border: 1px green solid; */
 }
 
 .Metiers{
-  border: 1px green solid;
+  /* border: 1px green solid; */
   height:18px;
   color:#707070;
 }
 
 .Contact{
-  border: 1px green solid;
+  /* border: 1px green solid; */
   height:18px;
   margin-right: 55px;
   color:#707070;
@@ -61,7 +61,7 @@ a{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; /* Pour mette l'image au milieu */
-  border: 3px red solid;
+  /* border: 3px red solid; */
   text-transform: uppercase;
   color:#003E52;
   display: flex;
@@ -131,6 +131,7 @@ h4{
   margin: 0;
   color:white;
 }
+
 h4:first-letter {
   text-transform: capitalize;
 }
@@ -140,21 +141,21 @@ h4:first-letter {
 .Pres{
   width:100%;
   height: 800px;
-  border: 1px blue solid;
+  /* border: 1px blue solid; */
 }
 
 .Sujet{
   width:200px;
   margin-top:30px;
   margin-bottom: 30px;
-  border: 1px blue solid;
+  /* border: 1px blue solid; */
   margin-left:auto;
   margin-right:auto;
 }
 
 .Present{
   width:1200px;
-  border: 1px blue solid;
+  /* border: 1px blue solid; */
   display:flex;
   margin-left:auto;
   margin-right:auto;
@@ -163,7 +164,7 @@ h4:first-letter {
 .Presentation{
   padding-right:40px;
   width:600px;
-  border: 1px blue solid;
+  /* border: 1px blue solid; */
 }
 
 h6{
@@ -202,13 +203,13 @@ p{
 } */
 
 .Group{
-  border: 1px blue solid;
+  /* border: 1px blue solid; */
 }
 
 .Qui{
   width:630px;
   position: right;
-  border: 1px blue solid;
+  /* border: 1px blue solid; */
 }
 
 /* /////////////////// FORMATIONS /////////////// */
@@ -216,13 +217,13 @@ p{
 .Formations{
   height:1025px;
   width:100%;
-  border: 3px red solid;
+  /* border: 3px red solid; */
   }
 
 .FormatIntermediaire{
   width:1800px;
   height:1025px;
-  border: 3px red solid;
+  /* border: 3px red solid; */
   margin-left:auto;
   margin-right:auto;
 }
@@ -231,7 +232,7 @@ p{
   width:125px;
   margin-top:20px;
   /* margin-bottom: 20px; */
-  border: 1px blue solid;
+  /* border: 1px blue solid; */
   margin-right: auto;
   margin-left: auto;
 }
@@ -251,8 +252,7 @@ p{
   height:150px;
   top:400px;
   left:250px;
-
-  border: 3px red solid;
+  /* border: 3px red solid; */
 }
 
 h5{
@@ -271,7 +271,7 @@ h5{
 .GroupJardinier{
   width:600px;
   height:800px;
-  border: 1px blue solid;
+  /* border: 1px blue solid; */
   position: relative;
   bottom:0px;
 }
@@ -279,7 +279,7 @@ h5{
 .Jardinier{
   width:400px;
   height:600px;
-  border: 3px red solid;
+  /* border: 3px red solid; */
   bottom: 0px;
   position: absolute;
 }
@@ -288,7 +288,7 @@ h5{
   width:360px;
   height:360px;
   border-radius: 180px;
-  border: 1px green solid;
+  /* border: 1px green solid; */
   position:absolute;
   top: 220px;
   right:0;
@@ -305,7 +305,7 @@ h5{
 .GroupMenuisier{
   width:600px;
   height:800px;
-  border: 1px blue solid;
+  /* border: 1px blue solid; */
   position: relative;
   bottom:0px;
 }
@@ -314,7 +314,7 @@ h5{
   top:0px;
   width:558px;
   height:500px;
-  border: 3px red solid;
+  /* border: 3px red solid; */
 }
 
 .Scie{
@@ -323,7 +323,7 @@ h5{
   width:400px;
   height:500px;
   transform:rotate(-30deg);
-  border: 3px red solid;
+  /* border: 3px red solid; */
   left:100px;
   position: absolute;
 }
@@ -333,7 +333,7 @@ h5{
   width:360px;
   height:360px;
   border-radius: 180px;
-  border: 1px green solid;
+  /* border: 1px green solid; */
   position:absolute;
   top: 220px;
   left:120px;
@@ -349,7 +349,7 @@ h5{
 .GroupPaveur{
   width:600px;
   height:800px;
-  border: 1px blue solid;
+  /* border: 1px blue solid; */
   /* left:1200px; */
   position: relative;
 }
@@ -358,7 +358,7 @@ h5{
   /* top:350px; */
   width:600px;
   height:500px;
-  border: 3px red solid;
+  /* border: 3px red solid; */
   position: absolute;
   bottom:40px;
 }
@@ -371,7 +371,7 @@ h5{
   position:absolute;
   top: 220px;
   left:0;
-  border: 1px green solid;
+  /* border: 1px green solid; */
   background-image: url("../IMG/Paveur.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -382,18 +382,18 @@ h5{
 /* ///// INFORMATIONS UTILES ////// */
 
 .InfosPrincipales{
-  width:1320px;
-  height:800px;
+  width: 1320px;
+  height: 800px;
   margin-left: auto;
   margin-right: auto;
-  border: 1px green solid;
+  /* border: 1px green solid; */
 }
 
 .colonnes{
   width: 1320px;
   height: 300px;
   display: flex;
-  border: 1px green solid;
+  /* border: 1px green solid; */
   text-align: center;
 }
 
@@ -402,7 +402,7 @@ h5{
   height:300px;
   padding-left:40px;
   padding-right:40px;
-  border: 1px green solid;
+  /* border: 1px green solid; */
 }
 
 .Objectif1{
@@ -410,7 +410,7 @@ h5{
   height:300px;
   padding-left:17px;
   padding-right:18px;
-  border: 1px green solid;
+  /* border: 1px green solid; */
 }
 
 .Adresse1{
@@ -418,14 +418,14 @@ h5{
   height:300px;
   padding-left:40px;
   padding-right:40px;
-  border: 1px green solid;
+  /* border: 1px green solid; */
 }
 
 .TelEmail{
   width: 440px;
   height: 333px;
   margin-left:440px;
-  border: 1px green solid;
+  /* border: 1px green solid; */
 }
 
 .Rejoigneznous{
@@ -433,14 +433,14 @@ h5{
   height:340px;
   padding-left:30px;
   padding-right: 30px;
-  border: 1px blue solid;
+  /* border: 1px blue solid; */
 }
 
 .boutons2{
   width:440px;
   height: 50px;
   display:flex;
-  border: 1px red solid;
+  /* border: 1px red solid; */
 }
 
 .Tel{
@@ -481,26 +481,24 @@ h5{
   margin-bottom: 90px;
   margin-left: auto;
   margin-right: auto;
-  border: 1px blue solid;
+  /* border: 1px blue solid; */
   text-align: center;
 }
 
 .logos{
   width : 100%;
-  /* height: 90px; */
   background: white;
   text-transform: uppercase;
   overflow:hidden;
   display:flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px blue solid;
+  /* border: 1px blue solid; */
 }
 
 .bandelogo2016{
   width:1320px;
-  /* width:auto; */
-  border: 1px blue solid;
+  /* border: 1px blue solid; */
   position: relative;
   Background-color:#003F95;
   margin-left: auto;
@@ -947,3 +945,372 @@ h5{
 /* ////////// PAGE  /////////// */
 /* ////////// PAGE  /////////// */
 /* ////////// PAGE  /////////// */
+
+
+
+
+
+/* ////////////////////// Tablette //////////////////// */
+
+@media screen and (max-width: 1000px) {
+  body {
+    background-color: green;
+  }
+
+  /* //////////////////////// HERO //////////////////  */
+
+  h1{
+    padding-top: 170px;
+    font-size: 16px;
+  }
+
+  .hero{
+    height:calc(100vh - 90px); /* ici on fait soustraction de la
+    taille 100% - 90px du header nav.*/
+    min-height: 400px;
+    width:100%;
+    background-image: url("../IMG/banniere-parcours-scolaires-et-valorisation.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; /* Pour mette l'image au milieu */
+    text-transform: uppercase;
+    color:#003E52;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  h1.hero{
+    font-size: 16px
+  }
+
+  .Rencontrer{
+    margin-top: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding:10px; */
+    color:#011580;
+    /* text-align:center; */
+    font-family: sans-serif;
+    font-style: Helvetica;
+    font-size: 22px;
+    font-weight: normal;
+    background:white;
+    width:780px;
+    text-transform: lowercase;
+    /* border-radius: 20px; */
+    box-shadow: 2px 2px 2px black;
+  }
+
+  .EnSavoirPlus{
+    /* padding:10px; */
+    margin-top:40px;
+    position: relative;
+    bottom: 0px;
+    Background-color:#3E7794;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: lowercase;
+    width:230px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px black;
+    text-align:center;
+  }
+
+  /* //////////////////// PRESENTATION //////////////// */
+
+  .Pres{
+    width:100%;
+    height: 500px;
+    border: 1px blue solid;
+  }
+
+  .Sujet{
+    width:200px;
+    margin-top:30px;
+    margin-bottom: 30px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .Present{
+    width:800px;
+    display:flex;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .Presentation{
+    padding-right:0px;
+    width:500px;
+  }
+
+  .Qui{
+    width:300px;
+
+  }
+
+  /* ////////////////////////FORMATION/////////////////// */
+
+  .Formations{
+    height:2050px;
+    width:100%;
+    }
+
+  .FormatIntermediaire{
+    width:800px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .Sujet2{
+    width:125px;
+    margin-top:20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .Form{
+    width:800px;
+    /* height: 800px; */
+    margin:0;
+    padding: 0;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .text3Form{
+    z-index:200;
+    width:500px;
+    height:150px;
+    top:400px;
+    left:250px;
+  }
+
+  h5{
+    font-family: sans-serif;
+    font-style: Helvetica;
+    font-size: 24px;
+    line-height: 2;
+    font-weight: 500;
+    margin: 0;
+    text-decoration: none;
+    color: #000000;
+  }
+
+  /* //// JARDINIER //// */
+
+  .GroupJardinier{
+    width:600px;
+    height:600px;
+    position: relative;
+    bottom:0px;
+  }
+
+  .Jardinier{
+    width:400px;
+    height:600px;
+    bottom: 0px;
+    position: absolute;
+  }
+
+  .MedaillonJardin{
+    width:360px;
+    height:360px;
+    border-radius: 180px;
+    position:absolute;
+    top: 220px;
+    right:0;
+    background-image: url("../IMG/Jardinier.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; /* Pour mettre l'image au milieu */
+    text-align:center;
+  }
+
+
+  /* //// MENUISIER ////  */
+
+  .GroupMenuisier{
+    width:600px;
+    height:600px;
+    position: relative;
+    bottom:0px;
+  }
+
+  .Menuiserie{
+    top:0px;
+    width:558px;
+    height:500px;
+  }
+
+  .Scie{
+    z-index: 10;
+    top:0px;
+    width:400px;
+    height:500px;
+    transform:rotate(-30deg);
+    left:100px;
+    position: absolute;
+  }
+
+  .MedaillonBois{
+    z-index: 100;
+    width:360px;
+    height:360px;
+    border-radius: 180px;
+    position:absolute;
+    top: 220px;
+    left:120px;
+    background-image: url("../IMG/AideMenuisier.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; /* Pour mette l'image au milieu */
+    text-align:center;
+  }
+
+  /* //// PAVEUR ////  */
+
+  .GroupPaveur{
+    width:600px;
+    height:600px;
+    /* left:1200px; */
+    position: relative;
+  }
+
+  .Paveur{
+    /* top:350px; */
+    width:600px;
+    height:500px;
+    position: absolute;
+    bottom:40px;
+  }
+
+  .MedaillonPavé{
+    z-index: 150;
+    width:360px;
+    height:360px;
+    border-radius: 180px;
+    position:absolute;
+    top: 220px;
+    left:0;
+    background-image: url("../IMG/Paveur.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; /* Pour mette l'image au milieu */
+    text-align:center;
+  }
+
+
+
+
+
+
+
+
+
+
+  .InfosPrincipales{
+    width:800px;
+    height:1010px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .colonnes{
+    width: 800px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .Informations1{
+    width:360px;
+    height:300px;
+    padding-left:40px;
+    padding-right:40px;
+  }
+
+  .Objectif1{
+    width:400px;
+    height:300px;
+    padding-left:17px;
+    padding-right:18px;
+  }
+
+  .Adresse1{
+    width:360px;
+    height:300px;
+    padding-left:40px;
+    padding-right:40px;
+  }
+
+  .TelEmail{
+    width: 400px;
+    height: 333px;
+    margin-left:440px;
+  }
+
+  .Rejoigneznous{
+    width:380px;
+    height:340px;
+    padding-left:10px;
+    padding-right: 10px;
+  }
+
+  .boutons2{
+    width:400px;
+    height: 50px;
+    display:flex;
+  }
+
+  .Tel{
+    padding:10px;
+    /* margin-top:40px; */
+    position: relative;
+    /* bottom: 0px; */
+    Background-color:#3E7794;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: lowercase;
+    width:245px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px black;
+    text-align:center;
+  }
+
+  .Email{
+    padding:10px;
+    /* margin-top:40px; */
+    position: relative;
+    /* bottom: 0px; */
+    Background-color:#003F95;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: lowercase;
+    width:140px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px black;
+    text-align:center;
+  }
+
+  .TexteSoutien{
+    width:780px;
+    height:60px;
+    margin-top: 200px;
+    margin-bottom: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .bandelogo2016{
+    width:800px;
+    position: relative;
+    Background-color:#003F95;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

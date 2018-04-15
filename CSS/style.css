@@ -510,24 +510,22 @@ h5{
 
 
 
-.metiersMenuisier {
+.metiersMenuisier{
   /* border: 2px blue solid; */
 }
 
-.Rabot{
+.GroupRabot{
   width:100%;
+  height:800px;
   /* border: 1px green solid; */
-}
-
-.Raboter{
-  width:100%;
-  /*height:calc(100vh - 90px);  ici on fait soustraction de la
-  taille 100% - 90px du header nav.*/
-  /* border: 1px red solid; */
   margin-left: auto;
-  margin: auto;
-}
-
+  margin-right: auto;
+  background-image: url("../IMG/raboter.jpg");
+  background-size: cover;
+  /* background-position-y: 0px; */
+  background-repeat: no-repeat; /* Pour mette l'image au milieu */
+  text-align:center;
+  }
 
 .amenagement{
   width:820px;
@@ -601,7 +599,6 @@ h5{
 .Group2b{
   padding-top: 40px;
   margin-left: 5px;
-  /* padding-right:40px; */
   width:595px;
   /* border: 1px blue solid; */
 }
@@ -655,13 +652,14 @@ h5{
 } */
 
 .Jard-1a{
-  width:100vw;
-  height:calc(100vh - 90px);
+  width:100%;
+  height: 800px;
+  /* height:calc(100vh - 90px); */
   /* ici on fait soustraction de la
   taille 100% - 90px du header nav.*/
-  /* border: 1px red solid; */
   margin-left: auto;
-  margin: auto;
+  margin-right: auto;
+  /* border: 1px red solid; */
   background-image: url("../IMG/HeroJardin.jpg");
   background-size: cover;
   /* background-position-y: 0px; */
@@ -704,7 +702,7 @@ h5{
   padding-top: 40px;
   padding-right:40px;
   width:595px;
-  border: 1px blue solid;
+  /* border: 1px blue solid; */
 }
 
 .Group1bj{
@@ -1061,7 +1059,6 @@ h5{
 
   .Form{
     width:800px;
-    /* height: 800px; */
     margin:0;
     padding: 0;
     display:flex;
@@ -1164,12 +1161,10 @@ h5{
   .GroupPaveur{
     width:600px;
     height:600px;
-    /* left:1200px; */
     position: relative;
   }
 
   .Paveur{
-    /* top:350px; */
     width:600px;
     height:500px;
     position: absolute;
@@ -1190,8 +1185,6 @@ h5{
     background-position: center; /* Pour mette l'image au milieu */
     text-align:center;
   }
-
-
 
 
 
@@ -1257,9 +1250,7 @@ h5{
 
   .Tel{
     padding:10px;
-    /* margin-top:40px; */
     position: relative;
-    /* bottom: 0px; */
     Background-color:#3E7794;
     margin-left: auto;
     margin-right: auto;
@@ -1272,9 +1263,7 @@ h5{
 
   .Email{
     padding:10px;
-    /* margin-top:40px; */
     position: relative;
-    /* bottom: 0px; */
     Background-color:#003F95;
     margin-left: auto;
     margin-right: auto;

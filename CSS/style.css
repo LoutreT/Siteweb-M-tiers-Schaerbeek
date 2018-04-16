@@ -1300,26 +1300,23 @@ h5{
 
 
   .Pav-1a{
-    width:100vw;
-    height:calc(100vh - 90px);
-    /* ici on fait soustraction de la
-    taille 100% - 90px du header nav.*/
+    width:100%;
+    height:200px;
     border: 1px red solid;
     margin-left: auto;
-    margin: auto;
+    margin-right: auto;
     background-image: url("../IMG/HeroPavé2.jpg");
     background-size: cover;
-    /* background-position-y: 0px; */
     background-repeat: no-repeat; /* Pour mette l'image au milieu */
     text-align:center;
   }
 
 
   .amenagementPav{
-    width:820px;
+    width:800px;
     border: 1px red solid;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -1336,7 +1333,7 @@ h5{
   }
 
   .Group1p{
-    width:1200px;
+    width:800px;
     margin-bottom: 70px;
     border: 1px blue solid;
     display:flex;
@@ -1347,26 +1344,26 @@ h5{
   .Group1ap{
     margin-right: 5px;
     padding-top: 40px;
-    padding-right:40px;
-    width:595px;
+    padding-right:10px;
+    width:390px;
     border: 1px blue solid;
   }
 
   .Group1bp{
-    width:595px;
+    width:390px;
     margin-left: 5px;
     position: right;
     border: 1px blue solid;
   }
 
   .paveur{
-    width:595px;
+    width:390px;
   }
 
 
   .Group2p{
-    width:1200px;
-    margin-bottom: 120px;
+    width:800px;
+    margin-bottom: 80px;
     border: 1px blue solid;
     display:flex;
     margin-left:auto;
@@ -1374,13 +1371,13 @@ h5{
   }
 
   .Group2ap{
-    width:595px;
-    height:400px;
+    width:390px;
+    height:300px;
     margin-right: 5px;
     position: right;
     border: 1px blue solid;
     margin-left: auto;
-    margin: auto;
+    margin-right: auto;
     background-image: url("../IMG/PavésGéométriques.jpg");
     background-size: cover;
     /* background-position-y: 0px; */
@@ -1389,19 +1386,19 @@ h5{
   }
 
   .bac{
-    width:595px;
+    width:390px;
   }
 
   .Group2bp{
     padding-top: 40px;
     margin-left: 5px;
     /* padding-right:40px; */
-    width:595px;
+    width:390px;
     border: 1px blue solid;
   }
 
   .ContactMenuisier{
-    width:1200px;
+    width:800px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
@@ -1409,25 +1406,22 @@ h5{
   }
 
   .TeletEmail{
-    width:440px;
-    height:400px;
-    /* padding-left:30px;
-    padding-right: 30px; */
+    width:400px;
+    height:300px;
     margin-left: auto;
     margin-right: auto;
-    border: 1px blue solid;
+    border: 1px red solid;
   }
 
-  .TeletEmail h2{
+  /* .TeletEmail h2{
     text-align: center;
-  }
+  } */
 
   .BordereauPave{
     width:100%;
     height: 90px;
-    border: 1px green solid;
+    /* border: 1px green solid; */
     background-image: url("../IMG/BordereauPave.jpg");
-    /* background-position-y: -50px; */
     background-size: cover;
     text-align:center;
   }
@@ -1437,6 +1431,10 @@ h5{
   /* ////////// PAGE AIDE-MENUISIER /////////// */
   /* ////////// PAGE AIDE-MENUISIER /////////// */
 
+
+  h2{
+    font-size: 20px;
+  }
 
   .metiersMenuisier{
     /* border: 2px blue solid; */
@@ -1450,7 +1448,6 @@ h5{
     margin-right: auto;
     background-image: url("../IMG/raboter.jpg");
     background-size: cover;
-    /* background-position-y: 0px; */
     background-repeat: no-repeat; /* Pour mette l'image au milieu */
     text-align:center;
     }
@@ -1532,7 +1529,7 @@ h5{
   }
 
   .ContactMenuisier{
-    width:1200px;
+    width:800px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
@@ -1547,9 +1544,9 @@ h5{
     /* border: 1px blue solid; */
   }
 
-  .TeletEmail h2{
+  /* .TeletEmail h2{
     text-align: center;
-  }
+  } */
 
   .bordereau{
     width:100%;
@@ -1691,7 +1688,7 @@ h5{
   }
 
   .TeletEmail{
-    width:440px;
+    width:400px;
     height:400px;
     /* padding-left:30px;
     padding-right: 30px; */
